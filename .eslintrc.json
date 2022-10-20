@@ -1,0 +1,12 @@
+{
+    "parser": "@typescript-eslint/parser",
+    "extends": ["plugin:@typescript-eslint/recommended", "prettier"],
+    "plugins": ["@typescript-eslint", "prettier"],
+    "parserOptions": { "ecmaVersion": 2018, "sourceType": "module" },
+    "rules": {
+        "no-useless-constructor": 0,
+        "new-cap": 0,
+        "no-unused-vars": "off",
+        "camelcase": 0
+    }
+}

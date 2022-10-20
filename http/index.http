@@ -1,0 +1,13 @@
+@baseURL = http://localhost:5000
+
+POST {{baseURL}}/v1
+Content-Type: application/json
+
+{
+    "email": "test@example.com",
+    "name": "test"
+}
+
+####
+GET {{baseURL}}/v1
+Content-Type: application/json

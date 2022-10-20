@@ -1,0 +1,12 @@
+.vscode
+/node_modules
+/coverage
+/dist
+
+.eslintrc
+.eslintignore
+.editorconfig
+.huskyrc
+.lintstagedrc.json
+.prettierrc
+jest.config.js
