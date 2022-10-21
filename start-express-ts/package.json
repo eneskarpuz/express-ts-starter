@@ -1,0 +1,12 @@
+{
+  "name": "start-express-ts",
+  "version": "1.0.3",
+  "description": "",
+  "bin": "./cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Enes Karpuz",
+  "license": "ISC"
+}

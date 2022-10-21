@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const util = require('util');
 const path = require('path');
 const fs = require('fs');
@@ -83,16 +85,6 @@ async function setup() {
 
     // Delete .git folder
     await runCmd('npx rimraf ./.git');
-
-    // Remove extra files
-    fs.unlinkSync(path.join(appPath, 'CHANGELOG.md'));
-    fs.unlinkSync(path.join(appPath, 'CODE_OF_CONDUCT.md'));
-    fs.unlinkSync(path.join(appPath, 'CONTRIBUTING.md'));
-    fs.unlinkSync(path.join(appPath, 'bin', 'createExpressApp.js'));
-    fs.rmdirSync(path.join(appPath, 'bin'));
-    if (!useYarn) {
-      fs.unlinkSync(path.join(appPath, 'yarn.lock'));
-    }
 
     console.log('Installation is now complete!');
     console.log();

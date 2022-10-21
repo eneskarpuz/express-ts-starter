@@ -1,8 +1,7 @@
 {
   "name": "@eneskarpuz/express-ts-starter",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "description": "Quick Express TypeScript Starter",
-  "bin": "bin/createExpressApp.js",
   "main": "src/index.ts",
   "scripts": {
     "start": "export NODE_ENV=production && npm run build && node dist/index.js",
